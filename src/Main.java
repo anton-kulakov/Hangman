@@ -18,8 +18,8 @@ public class Main {
     private static Random random = new Random();
 
     public static void main(String[] args) throws IOException {
+        createDictionary();
         while (true) {
-            createDictionary();
             startGameRound();
         }
     }
